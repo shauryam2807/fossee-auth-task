@@ -1,0 +1,15 @@
+{
+  "users": [
+    { "id": "u1", "email": "alice@example.com", "password": "Password123!", "name": "Alice Johnson" },
+    { "id": "u2", "email": "bob@example.com",   "password": "Password123!", "name": "Bob Smith" },
+    { "id": "u3", "email": "carol@example.com", "password": "Password123!", "name": "Carol Williams" }
+  ],
+  "files": [
+    { "id": "1", "user_id": "u1", "filename": "project_report.pdf", "file_path": "/storage/project_report.pdf", "file_size": 1024 },
+    { "id": "2", "user_id": "u1", "filename": "notes.txt",          "file_path": "/storage/notes.txt",          "file_size": 512 },
+    { "id": "3", "user_id": "u2", "filename": "resume.pdf",         "file_path": "/storage/resume.pdf",         "file_size": 2048 },
+    { "id": "4", "user_id": "u2", "filename": "photo.jpg",          "file_path": "/storage/photo.jpg",          "file_size": 4096 },
+    { "id": "5", "user_id": "u2", "filename": "data.csv",           "file_path": "/storage/data.csv",           "file_size": 768 },
+    { "id": "6", "user_id": "u3", "filename": "thesis.pdf",         "file_path": "/storage/thesis.pdf",         "file_size": 3072 }
+  ]
+}
